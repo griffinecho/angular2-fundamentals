@@ -6,3 +6,15 @@
 .well div{
     color: #c7d;
 }
+
+.thumbnail {
+    min-height: 210px;
+}
+
+.green {
+    color: cyan !important;
+}
+
+.bold {
+    font-weight: bold;
+}
