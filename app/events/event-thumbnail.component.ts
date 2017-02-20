@@ -1,11 +1,12 @@
 
-import { Component, Input, Output, EventEmitter }from '@angular/core'
+import { Component, Input, Output, EventEmitter } from '@angular/core'
 
 @Component({
     selector: 'event-thumbnail',
-    templateUrl: 'app/events/events-list.component.html'
+    templateUrl: 'app/events/event-thumbnail.component.html',
+    styleUrls: ['app/events/event-thumbnail.component.css']
 })
 export class EventThumbnailComponent {
-    @Input() event:any
+    @Input() event: any
     @Output() eventClick = new EventEmitter()
 }

@@ -1,5 +1,5 @@
 
-import {Component} from '@angular/core'
+import { Component } from '@angular/core'
 
 @Component({
     selector: 'events-list',
@@ -10,7 +10,7 @@ import {Component} from '@angular/core'
         <event-thumbnail [event]="event1" ></event-thumbnail>
     </div>`
 })
-export class EventsListComponent{
+export class EventsListComponent {
     event1 = {
         id: 1,
         name: "Angular Connect",
@@ -18,7 +18,7 @@ export class EventsListComponent{
         time: "10:00 AM",
         price: 3125,
         imageUrl: "/app/assets/images/angularconnect-shield.png",
-        location:  {
+        location: {
             address: "1057 DT",
             city: "London",
             country: "England"
